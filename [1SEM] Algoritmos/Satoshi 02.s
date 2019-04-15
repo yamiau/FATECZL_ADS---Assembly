@@ -1,11 +1,11 @@
+#Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%. 
+
 .data
 		msgr:		.asciiz		"\n Salário: "
 		msgo:		.asciiz		"\n Saláraio com reajuste: "
 		closure:	.asciiz		"\n" 
 .text
 main:
-
-#Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%. 
 
 read:
 li $v0, 4
