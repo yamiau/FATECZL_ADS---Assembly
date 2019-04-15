@@ -1,11 +1,11 @@
+#Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5. 
+
 .data
 		msgr:		.asciiz		"\n Converta uma temperatura de Celsius a Fahrenheit: " 
 		msgo:		.asciiz		"\n Temperatura em Fahrenheit: "
 		closure:	.asciiz		"\n"
 .text
 main:
-
-#Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160)/5. 
 
 read:
 li $v0, 4
