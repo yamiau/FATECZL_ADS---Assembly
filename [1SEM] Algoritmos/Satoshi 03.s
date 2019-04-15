@@ -1,3 +1,5 @@
+#Receba a base e a altura de um triângulo. Calcule e mostre a sua área
+
 .data
 		msgr1:		.asciiz		"\n Base do triângulo: " 
 		msgr2:		.asciiz		"Altura do triângulo: "
@@ -5,8 +7,6 @@
 		closure:	.asciiz		"\n"
 .text
 main:
-
-#Receba a base e a altura de um triângulo. Calcule e mostre a sua área
 
 read:
 li $v0, 4
