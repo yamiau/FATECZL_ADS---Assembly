@@ -1,3 +1,8 @@
+#Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o número de descendentes. 
+#Calcule o salário que serão as horas trabalhadas x o valor por hora. 
+#Calcule o salário líquido (= Salário Bruto – desconto). 
+#A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber. 
+
 .data
 		intro:	.asciiz "Bem-vindo à calculadora de salário"
 		ipt1:	.asciiz "\nQuantidade de horas trabalhadas: "
@@ -12,11 +17,6 @@
 		
 .text
 main:
-
-#Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o número de descendentes. 
-#Calcule o salário que serão as horas trabalhadas x o valor por hora. 
-#Calcule o salário líquido (= Salário Bruto – desconto). 
-#A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber. 
 
 ler:
 li $v0, 4
