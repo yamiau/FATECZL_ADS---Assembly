@@ -1,11 +1,11 @@
+#Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado
+
 .data
 		msgr:		.asciiz		"\n Lado do quadrado: "
 		msgo:		.asciiz		"\n Área: "
 		closure:	.asciiz		"\n" 
 .text
 main:
-
-#Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado
 
 read:
 li $v0, 4
